@@ -36,4 +36,4 @@ main().catch((error) => {
 
 // New deployment
 // npx hardhat run scripts/deployment/deployUniswapPoolSepolia.ts --network sepolia
-// addr = 0x0345f396705808CC580Cf9A2D3EcB59B23bcaA28
+// addr = 0x42f64ebD66BB3a74DEC34b44AD0e6744C59f6300

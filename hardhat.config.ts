@@ -86,13 +86,13 @@ const config: HardhatUserConfig = {
             //         }
             //     }
             // }
-        ] //,
-        // overrides: { // Example of specifying of a compiler for a specified contract.
-        //     "contracts/Foo.sol": {
-        //         version: "0.5.5",
-        //         settings: { }
-        //     }
-        // }
+        ] ,
+        overrides: { // Example of specifying of a compiler for a specified contract.
+            "contracts/Dai.sol": {
+                version: "0.5.12",
+                settings: { }
+            }
+        }
     },
     // defaultNetwork: "hardhat",
     networks: {
